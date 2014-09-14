@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'gradle-one-jar'
 
 mainClassName = "MyMain"
 
@@ -11,6 +12,19 @@ repositories {
 
 dependencies {
     compile "tk.tnoodle:libtnoodle:0.0.1-SNAPSHOT"
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.github.rholder:gradle-one-jar:1.0.4'
+    }
+}
+
+task oneJar(type: OneJar) {
+    mainClass = mainClassName
 }
 
 task wrapper(type: Wrapper) {

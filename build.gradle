@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "MyMain"
+
+repositories {
+    maven {
+        url "http://oss.jfrog.org/oss-snapshot-local"
+    }
+}
+
+dependencies {
+    compile "tk.tnoodle:libtnoodle:0.0.1-SNAPSHOT"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+}

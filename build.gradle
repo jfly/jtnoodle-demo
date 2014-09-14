@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    compile "tk.tnoodle:libtnoodle:0.0.1-SNAPSHOT"
+    compile "tk.tnoodle:jtnoodle:0.0.1-SNAPSHOT"
 }
 
 buildscript {

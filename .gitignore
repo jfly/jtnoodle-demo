@@ -3,3 +3,6 @@ build/
 
 # vim stuff
 *.swp
+
+# eclipse stuff
+bin/

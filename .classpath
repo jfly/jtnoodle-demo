@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="/home/jeremy/.gradle/caches/modules-2/files-2.1/tk.tnoodle/jtnoodle/0.0.1-SNAPSHOT/6873e6febb6f2692797318ecc20422be52c745bb/jtnoodle-0.0.1-SNAPSHOT-sources.jar" kind="lib" path="/home/jeremy/.gradle/caches/modules-2/files-2.1/tk.tnoodle/jtnoodle/0.0.1-SNAPSHOT/ce5b60dc14e78c1a7318c98e9dc9fd38c12c4ddb/jtnoodle-0.0.1-SNAPSHOT.jar" exported="true"/>
+</classpath>

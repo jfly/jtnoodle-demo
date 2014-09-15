@@ -3,6 +3,9 @@ apply plugin: 'application'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'eclipse'
 
+version = '0.0.1'
+group = 'tk.tnoodle'
+
 mainClassName = "MyMain"
 sourceCompatibility = 1.6
 

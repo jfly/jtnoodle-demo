@@ -5,6 +5,6 @@ Simple demo of how to use jtnoodle (the Java library produced by
 [https://github.com/jfly/libtnoodle](jfly/libtnodle)).
 
 - `./gradlew run` to compile and run.
-- `./gradlew oneJar` to build a standalone jar file using
-[One-JAR](http://one-jar.sourceforge.net/). Produces `build/libs/jtnoodle-demo-standalone.jar`
+- `./gradlew shadowJar` to build a standalone jar file using
+[shadow](https://github.com/johnrengelman/shadow). Produces `build/libs/jtnoodle-demo-all.jar`
 - `./gradlew eclipse` to update eclipse settings based on changes to build.gradle.

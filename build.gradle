@@ -1,9 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'application'
-apply plugin: 'gradle-one-jar'
+apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'eclipse'
 
 mainClassName = "MyMain"
+sourceCompatibility = 1.6
 
 repositories {
     maven {
@@ -19,15 +20,11 @@ dependencies {
 
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
     dependencies {
-        classpath 'com.github.rholder:gradle-one-jar:1.0.4'
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.1.1'
     }
-}
-
-task oneJar(type: OneJar) {
-    mainClass = mainClassName
 }
 
 task wrapper(type: Wrapper) {

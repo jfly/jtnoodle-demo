@@ -5,4 +5,7 @@ build/
 *.swp
 
 # eclipse stuff
+.classpath
+.project
+.settings
 bin/

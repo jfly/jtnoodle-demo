@@ -9,10 +9,12 @@ repositories {
     maven {
         url "http://oss.jfrog.org/oss-snapshot-local"
     }
+    jcenter()
 }
 
 dependencies {
     compile "tk.tnoodle:jtnoodle:0.0.1-SNAPSHOT"
+    compile "args4j:args4j:2.0.29"
 }
 
 buildscript {

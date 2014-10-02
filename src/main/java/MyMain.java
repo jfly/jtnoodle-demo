@@ -40,8 +40,8 @@ public class MyMain {
 
         System.out.println("puzzles: " + opts.puzzles);
 
-        String shortName = jtnoodle.getShortPuzzleName(0);
-        String scramble = jtnoodle.generateScramble(0);
+        String shortName = jtnoodle.getShortPuzzleName(jtnoodle.PUZZLE_333);
+        String scramble = jtnoodle.generateScramble(jtnoodle.PUZZLE_333);
         System.out.println(shortName + " scramble: " + scramble);
     }
 }
